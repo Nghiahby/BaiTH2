@@ -15,6 +15,5 @@ typedef struct
 void DHT11_Init(DHT11_Name* DHT11, GPIO_TypeDef* DS_PORT, uint16_t DS_Pin);
 float DHT11_ReadTemp(DHT11_Name* DHT11);
 float DHT11_ReadHumi(DHT11_Name* DHT11);
-float DHT11_ReadTemp(DHT11_Name* DHT11);
 
 #endif
